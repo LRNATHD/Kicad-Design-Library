@@ -352,6 +352,59 @@
 				)
 			)
 		)
+		(symbol "R_0603_0_1"
+			(polyline
+				(pts
+					(xy 2.54 -10.16) (xy 3.175 -8.89) (xy 3.81 -11.43) (xy 4.445 -8.89) (xy 5.08 -11.43) (xy 5.715 -8.89)
+					(xy 6.35 -11.43) (xy 6.985 -8.89) (xy 7.62 -10.16)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "R_0603_1_1"
+			(pin passive line
+				(at 0 -10.16 0)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 10.16 -10.16 180)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
 		(embedded_fonts no)
 	)
 )
